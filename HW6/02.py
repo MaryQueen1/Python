@@ -2,6 +2,6 @@
 
 old = [1,2,3,4,5,6]
 
-new = (list(map(lambda x: (1+1/x)**x, old)), 2)
+new = list(map(lambda x: (1+1/x)**x, old))
 
 print(new)
